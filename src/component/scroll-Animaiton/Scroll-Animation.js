@@ -21,7 +21,6 @@ const ScrollAnimation = () => {
     })
     return ( 
         <>
-         
             <h1>joscript</h1>
             <h1>joscript</h1>
             <h1>joscript</h1>
