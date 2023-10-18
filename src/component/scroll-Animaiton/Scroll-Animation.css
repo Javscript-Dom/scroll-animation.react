@@ -1,0 +1,31 @@
+
+h1{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    line-height: 130px;
+    background-color: darkorchid;
+    margin: 10px;
+    border-radius: 10px;
+    transform: translate(400%);
+    transition: transform .5s ease;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+h1:nth-of-type(even){
+    transform: translateX(-440%);
+    transition: transform .5s ease;
+}
+
+.animation:nth-of-type(even){
+    transform: translateX(0);
+    transition: transform .5s ease;
+
+}
+.animation{
+    transform: translateX(0);
+    transition: transform .5s ease;
+
+}
